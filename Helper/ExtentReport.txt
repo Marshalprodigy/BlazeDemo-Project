@@ -1,0 +1,25 @@
+3. Extent Report
+================================================================================
+
+-->Add/Create extent-config.xml file for Extent Report Configuration
+--> Change Project name Report name and Logo path in extent-config.xml file
+-->Add/Create ExtentManager Class in utility Package-- to create the object 
+of ExtentHtmlReporter and load extent-config.xml  
+
+-->Create a folder ro Save Extent Report under test-output
+
+-->Configure ExtentManager.setExtent() in @BeforeSuite method in BaseClass
+
+-->Configure ExtentManager.endReport() in @AfterSuite method in BaseClass
+
+-->Add/Create screenShot method in Action/BaseClass
+
+To attach the screenshot in extent report
+-->Add/Create a Listener Class -- ListenerClass
+
+-->To call the listener Add the below listener (inside suite tag) 
+setting in testng.xml
+
+<listeners>
+<listener class-name="com.Project.util.ListenerClass"></listener>
+</listeners> 

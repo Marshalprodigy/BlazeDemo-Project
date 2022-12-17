@@ -1,0 +1,8 @@
+Data Provider
+
+1. Add Excel Library in Utility Package
+2. Create a Folder and add TestData.xlsx file in it
+3. Create a Package for DataProvider and add DataProvider class there and create the object 
+	of ExcelLibrary Class
+4. Add The DataProvider methods 
+5. Call the DataProvider methods from testCases

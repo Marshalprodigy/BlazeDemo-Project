@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test_All">
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.blazeDemo.testScripts.ConfirmationPageTest" />
+			<class name="com.blazeDemo.testScripts.DetailsPageTest" />
+			<class name="com.blazeDemo.testScripts.EndToEndTest" />
+			<class name="com.blazeDemo.testScripts.IndexPageTest" />
+			<class name="com.blazeDemo.testScripts.VacationPageTest" />
+			<class name="com.blazeDemo.testScripts.ReservePageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

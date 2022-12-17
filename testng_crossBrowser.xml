@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests">
+	<test name="Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.blazeDemo.testScripts.IndexPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.blazeDemo.testScripts.IndexPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Edge_IE">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="com.blazeDemo.testScripts.IndexPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

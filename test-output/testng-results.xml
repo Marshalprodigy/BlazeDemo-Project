@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-10T20:26:36 IST" name="Default suite" finished-at="2022-12-10T20:27:11 IST" duration-ms="34894">
+    <groups>
+      <group name="Regression">
+        <method signature="EndToEndTest.endToEndTest()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" name="endToEndTest" class="com.blazeDemo.testScripts.EndToEndTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-12-10T20:26:36 IST" name="Default test" finished-at="2022-12-10T20:27:11 IST" duration-ms="34894">
+      <class name="com.blazeDemo.testScripts.EndToEndTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:36 IST" name="beforeSuite" finished-at="2022-12-10T20:26:36 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:36 IST" name="setup" finished-at="2022-12-10T20:26:40 IST" duration-ms="3186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:40 IST" name="endToEndTest" finished-at="2022-12-10T20:26:42 IST" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:42 IST" name="tearDown" finished-at="2022-12-10T20:26:42 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:43 IST" name="setup" finished-at="2022-12-10T20:26:46 IST" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest2(java.util.HashMap)[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:46 IST" name="endToEndTest2" data-provider="detailsPage" finished-at="2022-12-10T20:26:48 IST" duration-ms="2726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Month=row 2 or column 7 does not exist  in xls, Address=Marunji Phase 1, Year=row 2 or column 8 does not exist  in xls, State=Maharashtra, ZipCode=row 2 or column 4 does not exist  in xls, CardType=Visa, NameOnCard=ANKIT KESHRI, City=Pune, CreditCard=row 2 or column 6 does not exist  in xls, Name=Ankit Keshri}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:48 IST" name="tearDown" finished-at="2022-12-10T20:26:49 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:49 IST" name="setup" finished-at="2022-12-10T20:26:52 IST" duration-ms="3165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest2(java.util.HashMap)[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:52 IST" name="endToEndTest2" data-provider="detailsPage" finished-at="2022-12-10T20:26:55 IST" duration-ms="2934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Month=row 3 or column 7 does not exist  in xls, Address=Marunji Phase 3, Year=row 3 or column 8 does not exist  in xls, State=Maharashtra, ZipCode=row 3 or column 4 does not exist  in xls, CardType=American Express, NameOnCard=ANKIT SINGH, City=Pune, CreditCard=row 3 or column 6 does not exist  in xls, Name=Ankit Singh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:26:55 IST" name="tearDown" finished-at="2022-12-10T20:27:11 IST" duration-ms="16408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.blazeDemo.testScripts.EndToEndTest@d86a6f]" started-at="2022-12-10T20:27:11 IST" name="afterSuite" finished-at="2022-12-10T20:27:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.blazeDemo.testScripts.EndToEndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
